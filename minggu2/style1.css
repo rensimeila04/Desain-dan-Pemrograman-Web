@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/background.png);
+    line-height: 1.65;
+    color: #6e95fa; 
+}
+
+.container-satu {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #333333;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 24px;
+}
+
+.kolom-utama {
+    flex: 3;
+    padding: 10px;
+    order: 2; 
+}
+
+.sidebar-satu {
+    flex: 1;
+    padding: 10px;
+    order: 1;
+    background-color: #222222; 
+    border-radius: 8px;
+}
+
+.sidebar-dua {
+    flex: 1;
+    padding: 10px;
+    order: 3;
+    background-color: #222222;
+    border-radius: 8px;
+}
+
+a {
+    color: #6e95fa;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fc39f2;
+}
