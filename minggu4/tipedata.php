@@ -11,6 +11,8 @@ echo "Variabel c: {$c} <br>";
 echo "Variabel d: {$d} <br>";
 echo "Variabel e: {$e} <br>";
 
+var_dump($e);
+
 echo "<br> <br>";
 $nilaiMatematika = 5.1;
 $nilaiIPA = 6.7;
